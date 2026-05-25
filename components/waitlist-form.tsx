@@ -18,7 +18,7 @@ interface WaitlistFormProps {
   submitState?: SubmitState
   submitMessage?: string
   variant?: "hero" | "cta"
-}
+}ø
 
 const sourceOptions = [
   { value: "instagram", label: "Instagram" },
