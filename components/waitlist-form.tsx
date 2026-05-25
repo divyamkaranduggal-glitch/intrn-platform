@@ -1,4 +1,4 @@
-"use client"
+submitState = "idle",submitState = { success: false, message: "" } "use client"
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -33,7 +33,7 @@ export function WaitlistForm({
   formData,
   setFormData,
   onSubmit,
-  submitState = "idle",
+  submitState = { success: false, message: "" }
   submitMessage = "",
   variant = "hero",
 }: WaitlistFormProps) {
